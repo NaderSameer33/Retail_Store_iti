@@ -1,16 +1,49 @@
-# test
+# 🛒 Retail Store
 
-A new Flutter project.
+A modern **Flutter** retail shopping application for buying fresh **fruits**, **vegetables**, and **drinks**. 
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🔐 Authentication
+- 🛍 Browse Products
+- 🍎 Fruits, Vegetables & Drinks Categories
+- ❤️ Wishlist
+- 🛒 Shopping Cart
+- 💳 Checkout
+- 📦 Order Tracking
+- 👤 User Profile
+- 🔍 Product Search
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🚀 Getting Started
+
+```bash
+flutter pub get
+flutter pub run build_runner build --delete-conflicting-outputs
+flutter run
+```
+
+## 📱 Architecture
+
+```
+lib/
+├── core/
+├── features/
+│   ├── auth/
+│   ├── home/
+│   ├── products/
+│   ├── cart/
+│   ├── checkout/
+│   ├── orders/
+│   └── profile/
+└── main.dart
+```
+
+## 📄 License
+
+This project is licensed under the MIT License.
